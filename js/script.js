@@ -1,5 +1,5 @@
 let km = prompt("Inserisci i chilometri che devi percorrere");
-console.log(km);
-
 let eta = prompt("Inserisci la tua eta");
-console.log(eta);
+
+let prezzo_biglietto = km * 0.21;
+console.log(prezzo_biglietto);
